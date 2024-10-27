@@ -6,3 +6,13 @@ Checkout to your own branch to work individually. Please remember to merge back 
 
 Do not upload the dataset and any other unnecessary files. For consistency, please make the file structure of this project looks like this:
 
+.
+├── README.md
+├── data_exploration.ipynb
+├── train.ipynb
+└── turtles-data                     <-- Zip file from online dataset downloaded from Kaggle
+    └── data
+        ├── annotations.json
+        ├── images
+        ├── metadata.csv
+        └── metadata_splits.csv
