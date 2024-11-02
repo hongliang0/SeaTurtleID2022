@@ -2,7 +2,7 @@
 
 COMP9517 Group Project
 
-Checkout to your own branch to work individually. Please remember to merge back to main and pull for updates regularly! For git tools, I highly recommend https://git-fork.com/
+Checkout to your own branch to work individually. It is actually really hard to merge conflicted versions of jupyter notebook, so please immediately merge back to main when done and rebase your own branch regularly! Use git fetch to get all branches. For git tools, I highly recommend https://git-fork.com/
 
 Do not upload the dataset and any other unnecessary files. For consistency, please make the file structure of this project looks like this:
 
