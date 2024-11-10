@@ -45,7 +45,7 @@ Do not upload the dataset and any other unnecessary files. For consistency, plea
 ├── dataVisualisation.ipynb          <-- Preliminary dataset investigation
 ├── knn.ipynb                        <-- Model 1: TODO: KNN
 ├── deeplab.ipynb                    <-- Model 2: Deeplab V3+
-├── maskrcnn.ipynb                   <-- Model 3: TODO: TBD @Lxx156 @jxiong968 please merge your code thnx
+├── maskrcnn.ipynb                   <-- Model 3: Mask R-CNN
 ├── yolo.ipynb                       <-- Model 4: YOLOv8-Segmentation
 └──
 ```
@@ -67,7 +67,7 @@ Do not upload the dataset and any other unnecessary files. For consistency, plea
 
 <br />
 
-#### Run Order for Markers : 
+#### Run Order : 
 
 ---
 
@@ -77,6 +77,6 @@ In order to run each cell in this repository, please follow the instructions bel
 
 2. Investigate dataVisualisation.ipynb, where the steps we have taken to investigate the dataset occurs. Note that at the end, there will be a new updated_annotations.json file in place of the original. It is worth noting that some cells will render each and every photo of the dataset, so it is highly recommended to kill the cells after a few photos...
 
-3. If all cells were executed correctly, note the creation of a new dataset.pth file inside of /models, which is where the processed dataset will be saved in. This will be used later to train ALL of the models.  
+3. Make sure to keep the split dataset as defined in the open-set splitting of the dataset into training, validation, and test subsets as defined by the creators in the metadata.
 
-4. 
+4. Each model can act separately once dataVisualisation.ipynb has finished running.
