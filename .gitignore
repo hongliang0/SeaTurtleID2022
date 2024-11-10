@@ -1,6 +1,13 @@
 # Project related data
 turtles-data
 models
+JSON2YOLO-main
+runs
+yolov8n-seg.pt
+
+# YOLO preprocessing
+yolo-dataset/images/*
+yolo-dataset/labels/*
 
 
 # Byte-compiled / optimized / DLL files

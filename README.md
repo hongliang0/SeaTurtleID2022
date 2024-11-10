@@ -16,23 +16,38 @@ Do not upload the dataset and any other unnecessary files. For consistency, plea
 ```
 .
 ├── README.md
-├── utils
-│   ├── data_exploration.ipynb
-│   └── dataloader.ipynb
 ├── models
 │   ├── dataset.pth                  <-- Dataset loaded in from dataVisualiation.ipynb
-│   └── best_models.pth              <-- TODO: 
+│   └── best_models.pth              <-- TODO: Save best models here.
+│
+├── turtles-data                     <-- Zip file from online dataset downloaded from Kaggle - DO NOT UPLOAD
+│   └── data
+│       ├── annotations.json
+│       ├── images
+│       ├── metadata.csv
+│       └── metadata_splits.csv
+│
+├── utils
+│   ├── COCO2YOLO.py
+│   ├── data_exploration.ipynb
+│   ├── dataloader.ipynb
+│   └── drawAndTest.py
+│
+├── yolo-dataset
+│   ├── images
+│   │   ├── train
+│   │   └── test
+│   ├── labels
+│   │   ├── train
+│   │   └── test
+│   └── seaturtle-seg.yaml
+│
 ├── dataVisualisation.ipynb          <-- Preliminary dataset investigation
 ├── knn.ipynb                        <-- Model 1: TODO: KNN
 ├── deeplab.ipynb                    <-- Model 2: Deeplab V3+
 ├── maskrcnn.ipynb                   <-- Model 3: TODO: TBD @Lxx156 @jxiong968 please merge your code thnx
-├── yolo.ipynb                       <-- Model 4: TODO: Yolo Segmentation
-└── turtles-data                     <-- Zip file from online dataset downloaded from Kaggle - DO NOT UPLOAD
-    └── data
-        ├── annotations.json
-        ├── images
-        ├── metadata.csv
-        └── metadata_splits.csv
+├── yolo.ipynb                       <-- Model 4: YOLOv8-Segmentation
+└──
 ```
 
 <br />
