@@ -45,7 +45,8 @@ Do not upload the dataset and any other unnecessary files. For consistency, plea
 ├── dataVisualisation.ipynb          <-- Preliminary dataset investigation
 ├── knn.ipynb                        <-- Model 1: TODO: KNN
 ├── deeplab.ipynb                    <-- Model 2: Deeplab V3+
-├── maskrcnn.ipynb                   <-- Model 3: Mask R-CNN
+├── maskrcnn.ipynb                   <-- Model 3.1: Mask R-CNN
+├── mrcnn_model.ipynb                <-- Model 3.2: Mask R-CNN
 ├── yolo.ipynb                       <-- Model 4: YOLOv8-Segmentation
 └──
 ```
