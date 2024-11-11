@@ -8,6 +8,7 @@ yolov8n-seg.pt
 # YOLO preprocessing
 yolo-dataset/images/*
 yolo-dataset/labels/*
+yolo-dataset/predict_images
 
 
 # Byte-compiled / optimized / DLL files
