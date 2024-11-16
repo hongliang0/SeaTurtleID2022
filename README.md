@@ -72,6 +72,10 @@ Do not upload the dataset and any other unnecessary files. For consistency, plea
 
 ---
 
+Please Note: All models were too big to include in zip, so we have uploaded them onto Google Drive. Please access them and setup in your own environemnt according to the file structure above. 
+
+https://drive.google.com/drive/folders/1FMRyLI-iyfLZ9pZLiYzTRAE4X7rbVRWR?usp=sharing
+
 In order to travel through this repository to understand what has been done and for marking, please follow the instructions below.
 
 1. Follow the steps above to make sure you have the exact same tree structure in your local files as shown above.
